@@ -12,19 +12,24 @@ mensagens.txt: Arquivo de log que armazena todas as mensagens trocadas no chat. 
 Como Executar
 
 Clone o repositório:
+
 git clone https://github.com/Gabriel-Hernandess/tkinterChat-Python-Websockets.git
 cd tkinterChat-Python-Websockets
 
 Instale as dependências:
+
 pip install tk
 pip install websockets
 
 Inicie o servidor de chat:
+
 python server.py
 
 Inicie o cliente de chat:
+
 python app.py
 
 Pré-requisitos
+
 Python 3.9
 Bibliotecas Python: Tkinter, websockets
