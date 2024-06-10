@@ -1,6 +1,6 @@
 # Chat em Tempo Real com Tkinter e Websockets
 
-Este repositório contém um sistema de chat em tempo real desenvolvido em Python 3.9, utilizando as bibliotecas Tkinter para a interface gráfica e websockets para a comunicação entre cliente e servidor. O projeto permite que os usuários troquem mensagens instantaneamente em uma interface intuitiva.
+Este repositório contém um sistema de chat em tempo real desenvolvido em Python 3.9, utilizando as bibliotecas Tkinter para a interface gráfica e websockets para a comunicação entre cliente e servidor. O projeto permite que os usuários troquem mensagens instantaneamente em uma interface intuitiva. Foi adicionado uma função Ping Pong, para deixar as quedas de conexões de um cliente no servidor mais 'Reais'.
 
 Estrutura do Projeto
 
@@ -8,6 +8,8 @@ server.py: Código do servidor responsável por estabelecer conexões e gerencia
 
 app.py: Código do programa Tkinter que proporciona a interface gráfica para os usuários enviarem e receberem mensagens no chat.
 mensagens.txt: Arquivo de log que armazena todas as mensagens trocadas no chat. Este arquivo é atualizado pelo servidor à medida que novas mensagens são recebidas.
+
+mensagens.txt: Arquivo de texto para salvar log de todas as mensagens passadas pelo servidor.
 
 Como Executar
 
